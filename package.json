@@ -1,0 +1,26 @@
+{
+  "name": "qigeligedongdongqiang.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qigeligedongdongqiang/qigeligedongdongqiang.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qigeligedongdongqiang/qigeligedongdongqiang.github.io/issues"
+  },
+  "homepage": "https://github.com/qigeligedongdongqiang/qigeligedongdongqiang.github.io",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-postcss": "^6.0.1",
+    "autoprefixer": "^6.2.3",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
