@@ -286,6 +286,7 @@ main .content {
   margin-left: 225px;
   width: 800px;
 }
+
 main .text-wraper {
   margin-bottom: 25px;
   padding: 45px 30px;
@@ -306,15 +307,17 @@ main .text-wraper .chapter {
   margin-right: 6.7999%;
 }
 main .text-wraper .chapter .title, main .text-wraper .chapter p {
-  font-size: 13px;
+  font-family: PingFang SC;
+  font-size: 12px;
   line-height: 2;
-  font-weight: 100;
+  font-weight: bold;
   margin: 0;
-  color: #aaa;
+  color: #828282;
 }
 main .text-wraper .chapter p {
+  font-weight: normal;
   line-height: 1.6;
-  color: #bbb;
+  color: #828282;
   text-align: justify;
   letter-spacing: 1px;
 }
