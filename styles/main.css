@@ -293,6 +293,7 @@ main .text-wraper:after {
   height: 0;
   display: block;
   clear: both;
+  
 }
 main .text-wraper .chapter {
   float: left;
