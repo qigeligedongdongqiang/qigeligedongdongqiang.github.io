@@ -1,4 +1,9 @@
 /* normalize start*/
+
+@font-face {
+font-family: 'clean';
+url('../font/Clean.ttf') format('truetype');
+   }
 html {
   font-family: Arial, "Helvetica Neue", "Hiragino Sans GB", Simsun, sans-self;
   /* 1 */
@@ -203,6 +208,7 @@ body {
 
 header {
   position: fixed;
+  font-family: 'clean';
   width: 1000px;
   height: 80px;
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -233,6 +239,7 @@ header {
     float: right;
     height: 100%; }
     header .nav .nav-item {
+    font-family: 'clean';
       float: left;
       margin-left: 40px;
       line-height: 80px; }
