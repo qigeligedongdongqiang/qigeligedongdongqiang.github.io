@@ -1,9 +1,11 @@
 /* normalize start*/
 
 @font-face {
-font-family: 'clean';
-url('../font/Clean.ttf') format('truetype');
-   }
+	font-family: 'clean';
+	src: url('../font/Clean.woff') format('woff');
+	src: url('../font/Clean.ttf') format('truetype');
+
+}
 html {
   font-family: Arial, "Helvetica Neue", "Hiragino Sans GB", Simsun, sans-self;
   /* 1 */
