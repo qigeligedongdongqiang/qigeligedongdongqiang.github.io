@@ -213,6 +213,11 @@ header {
   height: 90px;
   background: #fff;
 }
+
+header .single{
+  font-size:18px;
+}
+
 @media screen and (max-width:1001px) {
   header {
     position: absolute;
