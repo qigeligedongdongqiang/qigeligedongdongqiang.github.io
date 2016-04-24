@@ -309,7 +309,7 @@ main .text-wraper .chapter.first{
   margin-bottom: 35px;
 }
 main .text-wraper .chapter .title, main .text-wraper .chapter p {
-  font-family: PingFang SC;
+  /*font-family: 'clean';*/
   font-size: 12px;
   line-height: 2;
   font-weight: bold;
