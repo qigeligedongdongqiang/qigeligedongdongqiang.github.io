@@ -207,6 +207,9 @@ body {
   margin: 0 auto;
   width: 1025px;
 }
+.wraper.b0 {
+  bottom: 0;
+}
 header {
   position: fixed;
   z-index: 10;
@@ -284,9 +287,20 @@ header .nav .nav-item a:hover, header .nav .nav-item a.act {
 main {
   margin-top: 90px;
 }
+main.single-page {
+      position: absolute;
+    bottom: 0;
+    top: 0;
+}
 main .content {
   margin-left: 225px;
   width: 800px;
+}
+main .content.single-page-content {
+  position: absolute;
+    bottom: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.05));
 }
 main .text-wraper {
   margin-bottom: 25px;
@@ -294,6 +308,9 @@ main .text-wraper {
   background: -webkit-linear-gradient(left, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.05));
   background: linear-gradient(to right, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.05));
   *zoom: 1;
+}
+main .text-wraper.no-bg {
+  background: none;
 }
 main .text-wraper:after {
   content: "\200B";
