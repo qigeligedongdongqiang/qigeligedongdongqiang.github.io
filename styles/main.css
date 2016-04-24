@@ -1,4 +1,4 @@
-/* normalize start*/
+ normalize start*/
 @font-face {
   font-family: 'clean';
   src: url('../font/Clean.woff') format('woff');
@@ -216,7 +216,6 @@ header {
 header .single{
   font-size:18px;
 }
-
 @media screen and (max-width:1026px) {
   header {
     position: absolute;
@@ -286,10 +285,9 @@ main .content {
   margin-left: 225px;
   width: 800px;
 }
-
 main .text-wraper {
   margin-bottom: 25px;
-  padding: 45px 30px;
+  padding: 40px 0px 15px 40px;
   background: -webkit-linear-gradient(left, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.05));
   background: linear-gradient(to right, rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.05));
   *zoom: 1;
@@ -303,8 +301,11 @@ main .text-wraper:after {
 main .text-wraper .chapter {
   float: left;
   width: 43%;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   margin-right: 6.7999%;
+}
+main .text-wraper .chapter.first{
+  width: 100%;
 }
 main .text-wraper .chapter .title, main .text-wraper .chapter p {
   font-family: PingFang SC;
@@ -313,6 +314,10 @@ main .text-wraper .chapter .title, main .text-wraper .chapter p {
   font-weight: bold;
   margin: 0;
   color: #828282;
+}
+main .text-wraper .first .title{
+  font-size: 21px;
+  font-weight: 400;
 }
 main .text-wraper .chapter p {
   font-weight: normal;
@@ -325,6 +330,8 @@ main .img-case {
   position: relative;
   margin-bottom: 25px;
   height: 480px;
+}
+main .img-case.index{
   cursor: pointer;
 }
 main .img-case.index:after {
