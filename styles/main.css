@@ -420,6 +420,11 @@ main .img-case-nb.detail{
   width: 750px;
   margin-bottom: 20px;
 }
+main .img-case-nb.detail-img{
+    display: inline-block;
+    width: 1025px;
+    margin-bottom: 20px;
+}
 /*footer*/
 footer .cel .cel-item{
   float: left;
